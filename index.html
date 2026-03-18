@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Elie Odin</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+<header>
+    <h1>Elie Odin</h1>
+
+    <!-- <div class="info">
+        <p><strong>Independent Researcher</strong></p>
+        <p>Toulouse University</p>
+        <p>Institut de Mathématiques de Toulouse</p>
+
+        <p>
+            <a href="https://maps.app.goo.gl/mrdXmFSUFi3G2wv26" target="_blank">
+                TOULOUSE, FRANCE
+            </a>
+        </p>
+    </div> -->
+
+    <p>
+        <strong>Doctor</strong> in Mathematical statistics
+    </p>
+
+    <p style="font-size: 0.9rem;">
+    I obtained in December 2026 a Phd in Bayesian nonparametrics under the supervision of <a href="https://francoisbachoc.github.io/">François Bachoc</a> and <a href="https://perso.math.univ-toulouse.fr/lagnoux/">Agnès Lagnoux</a>.
+    </p>
+</header>
+
+
+<nav>
+    <button class="menu-toggle" onclick="toggleMenu()">
+        ☰
+    </button>
+
+    <ul id="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="index.html#Publication">Publications</a></li>
+        <li><a href="Teaching.html">Teaching and Communication</a></li>
+        <li><a href="index.html#Contact">Contact</a></li>
+    </ul>
+</nav>
+<script>
+function toggleMenu() {
+    document.getElementById("nav-menu").classList.toggle("show");
+}
+</script>
+
+
+<main>
+
+    <div>
+        <h2>
+            Research interest
+        </h2>
+        <ul>
+            <li>Bayesian nonparametrics</li>
+            <li>Gaussian processes</li>
+            <li>Dimension Reduction</li>
+            <li>Manifold estimation</li>
+        </ul>
+
+        <h2 id="Publication">
+            Publication
+        </h2>
+        <ol>
+            <div class="csl-entry">Odin, E., Bachoc, F. and Lagnoux, A. (2026) “Contraction rates and projection subspace estimation with Gaussian process priors in high dimension”, <i>Bernoulli</i>, <strong>32(2)</strong>, pp. 1645–1664. Available at: <a href="https://doi.org/10.3150/25-BEJ1925">https://doi.org/10.3150/25-BEJ1925</a>.</div>
+        </ol>
+    </div>
+
+
+    <div>
+        <h2>Talks & poster sessions<!--(conferences and workshops)--></h2>
+        <p>Workshop “Gaussian processes and related topics”, July 2025:<br>
+        <span class="content1">Mini-course <i>“Gaussian processes in nonparametric statistics”</i> with <a href="https://perso.lpsm.paris/~castillo/">Ismaël Castillo</a>.</span>
+        </p>
+        <p>Lebesgue Doctoral Conference 2024 (poster session)</p>
+        <p>ISBA 2024 (poster session)</p>
+    </div>
+    
+
+    <div>
+        <h2 id="Contact">
+            Contact
+        </h2>
+
+        <p>
+            <!-- Mail -->
+            <span id="email"></span>
+            <script>
+                document.getElementById("email").textContent = ["eli", "e.o", "din A", "T ", "ens-re", "nnes D", "OT f", "r"].join("");
+            </script>
+        </p>
+
+        <p>Toulouse University, Institut de Mathématiques de Toulouse</p>
+
+        <p>
+            <a href="https://maps.app.goo.gl/mrdXmFSUFi3G2wv26" target="_blank">
+                TOULOUSE, FRANCE
+            </a>
+        </p>
+    </div>
+
+</main>
+
+
+
+<footer>
+    <p>Elie Odin, last updated in February 2026</p>
+</footer>
+</body>
